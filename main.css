@@ -1,0 +1,107 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.backDiv {
+    position: relative;
+    left: 25%;
+    top: 25vh;
+    background-color: rgba(10, 10, 100, 0.5);
+    width: 700px;
+    height: 55vh;
+    border-radius: 20px;
+    /* box-shadow: 3px 3px rgba(128, 128, 128, 0.2); */
+    user-select: none;
+}
+.mainDiv {
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 2px 2px rgb(224, 224, 224); */
+    width: 50%;
+    width: fit-content;
+    height: 60%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    border-radius: 10px;
+}
+.title {
+    position: absolute;
+    color: rgba(10, 10, 100, 0.5);
+    left: 50px;
+    top: -75px;
+}
+.inputDiv {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 10px;
+    margin: 0px 10px;
+}
+input {
+    width: 70px;
+    height: 30px;
+    border: 1px rgb(225, 225, 225) solid;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: row;
+
+}
+form div {
+    margin: 0px 20px;
+}
+h4 {
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(120, 120, 120);
+}
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(10, 10, 100, 0.5);
+    position: relative;
+    left: 78%;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(128, 128, 128, 1);
+    font-size: 30px;
+}
+button:active {
+    /* background-color: rgba(128, 128, 128, 0.3); */
+    font-size: 25px;
+}
+h1 {
+    font-size: 24px;
+    margin: 10px 00px;
+    margin-left: 30px;
+    background-color: rgba(10, 10, 100, 0.2);
+    display: flex;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgba(80, 80, 80);
+    display: none;
+}
+
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  height: 30px; /* Set the height of the spin buttons */
+  width: 30px; /* Set the width of the spin buttons */
+}
+
+input {
+  height: 30px; /* Set the height of the input field */
+  font-size: 16px; /* Set the font size of the input field */
+}
